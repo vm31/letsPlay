@@ -56,19 +56,26 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
-        <!-- Below Dependency for TestNG -->
+<!--        &lt;!&ndash; Below Dependency for TestNG &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>info.cukes</groupId>-->
+<!--            <artifactId>cucumber-testng</artifactId>-->
+<!--            <version>1.2.5</version>-->
+<!--            <scope>compile</scope>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>junit</groupId>-->
+<!--                    <artifactId>junit</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
         <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-testng</artifactId>
-            <version>1.2.5</version>
-            <scope>compile</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>junit</groupId>
-                    <artifactId>junit</artifactId>
-                </exclusion>
-            </exclusions>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
+
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="868c91b0-f931-4555-a05e-13a42602a96c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/stepdefs/SignInPageStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature/homePageSanity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Feature/homePageSanity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/helper/PageFactoryLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/helper/PageFactoryLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/helper/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/stepdefs/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/stepdefs/HomePageStepDef.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dwk1WNN2w2h0PlAiEL6gsSfbKl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: I click signIn btn">
+    <configuration name="Feature: homePageSanity (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/homePageSanity.feature" />
+      <option name="GLUE" value="com.amazon.in.stepdefs com.amazon.in.helper" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="letsPlay" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: homePageSanity" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: signInPageSanity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/signInPageSanity.feature" />
+      <option name="GLUE" value="com.amazon.in.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bddCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: signInPageSanity" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/homePageSanity.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="letsPlay" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: I click signIn btn" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/homePageSanity.feature" />
+      <option name="GLUE" value="com.amazon.in.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="letsPlay" />
+      <option name="NAME_FILTER" value="^I click signIn btn$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^I click signIn btn$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: I click signIn btn" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Test for launch amazon and check title" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/homePageSanity.feature" />
+      <option name="GLUE" value="com.amazon.in.stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bddCucumber" />
+      <option name="NAME_FILTER" value="^Test for launch amazon and check title$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test for launch amazon and check title$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Test for launch amazon and check title" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: I click signIn btn" />
+        <item itemvalue="Cucumber Java.Feature: homePageSanity (1)" />
+        <item itemvalue="Cucumber Java.Scenario:  (1)" />
+        <item itemvalue="Cucumber Java.Feature: signInPageSanity" />
+        <item itemvalue="Cucumber Java.Scenario: Test for launch amazon and check title" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="868c91b0-f931-4555-a05e-13a42602a96c" name="Default Changelist" comment="" />
+      <created>1593343327172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593343327172</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="476" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1593346083931">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="476" y="130" width="1024" height="845" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1593346083931" />
+    <state x="1920" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1593373242219">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="801" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1593345197771" />
+    <state x="1920" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.3773.1053@67.27.3773.1053" timestamp="1593373242219" />
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1593372518747">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.3773.1053@67.27.3773.1053" timestamp="1593372518747" />
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom" timestamp="1593374834888">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1593369606149" />
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1593374834888" />
+    <state width="1874" height="285" key="GridCell.Tab.0.center" timestamp="1593374834888">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1593369606149" />
+    <state width="1874" height="285" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1593374834888" />
+    <state width="1874" height="285" key="GridCell.Tab.0.left" timestamp="1593374834888">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1593369606148" />
+    <state width="1874" height="285" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1593374834888" />
+    <state width="1874" height="285" key="GridCell.Tab.0.right" timestamp="1593374834888">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1593369606149" />
+    <state width="1874" height="285" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1593374834888" />
+    <state x="2413" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1593370687654">
+      <screen x="67" y="27" width="3773" height="1053" />
+    </state>
+    <state x="2413" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.3773.1053@67.27.3773.1053" timestamp="1593370687654" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1593343730802">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1593343730802" />
+  </component>
+</project>

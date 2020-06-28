@@ -23,11 +23,6 @@ public abstract class PageFactoryLib{
         this.homePageObj = PageFactory.initElements(driver, HomePage.class);
     }
 
-    // Clean driver
-    public void closeDriver(){
-        driver.close();
-    }
-
     public HomePage getHomePageObj() {
         return homePageObj;
     }

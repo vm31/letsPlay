@@ -22,6 +22,6 @@ public class HomePageStepDef extends PageFactoryLib {
 
     @After
     public void iCleanup(){
-        super.closeDriver();
+        getDriver().quit();
     }
 }

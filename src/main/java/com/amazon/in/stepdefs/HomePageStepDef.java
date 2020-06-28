@@ -12,7 +12,6 @@ public class HomePageStepDef extends PageFactoryLib {
 
     @Given("I launch url")
     public void iLaunchUrl(){
-        super.initializeDriver();
         getDriver().get("https://www.amazon.nl");
     }
 

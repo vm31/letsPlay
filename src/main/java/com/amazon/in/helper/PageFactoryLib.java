@@ -15,12 +15,11 @@ public abstract class PageFactoryLib{
         this.chromeOptions = new ChromeOptions();
         //chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--no-sandbox");
+        this.driver = new ChromeDriver(this.chromeOptions);
     }
 
-    // Initialize and configure driver
     // Initialize PageObject
-    public void initializeDriver(){
-        this.driver = new ChromeDriver(this.chromeOptions);
+    public void init(){
         this.homePageObj = PageFactory.initElements(driver, HomePage.class);
     }
 

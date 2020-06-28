@@ -1,5 +1,5 @@
 Feature: Amazon home page sanity scenarios
 
-  Scenario: I test
-  //  Given I get this url ""
+  Scenario:
+    Given I launch url
     Then I verify title

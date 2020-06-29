@@ -18,20 +18,23 @@ public abstract class PageFactoryLib{
         //chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--no-sandbox");
         this.driver = new ChromeDriver(this.chromeOptions);
-    }
-
-    public SignInPage getSignInPageObj() {
-        return signInPageObj;
-    }
-
-    // Initialize PageObject
-    public void init(){
         this.homePageObj = PageFactory.initElements(driver, HomePage.class);
         this.signInPageObj = PageFactory.initElements(driver, SignInPage.class);
     }
 
+
+
+    // Initialize PageObject
+//    public void init(){
+//        this.homePageObj = PageFactory.initElements(driver, HomePage.class);
+//        this.signInPageObj = PageFactory.initElements(driver, SignInPage.class);
+//    }
+
     public HomePage getHomePageObj() {
         return homePageObj;
+    }
+    public SignInPage getSignInPageObj() {
+        return signInPageObj;
     }
 
     public WebDriver getDriver() {

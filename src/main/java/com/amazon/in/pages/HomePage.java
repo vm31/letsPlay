@@ -9,16 +9,18 @@ public class HomePage {
 
     WebDriver driver;
     Utility util;
+    SignInPage signInPageObj;
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
         this.util = new Utility(driver);
+        this.signInPageObj = new SignInPage(driver);
     }
 
     @FindBy(xpath = "//title")
     private WebElement titleHomepage;
 
-    @FindBy(xpath="//*[@id=\"nav-flyout-ya-signin\"]/a")
+    @FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
     private WebElement signinBtn;
 
 
@@ -27,10 +29,12 @@ public class HomePage {
         System.out.println("title is:"+x);
         return x;
     }
-    public void clickSignInPage() {
-        util.waitForElement(1000);
+
+    public SignInPage clickSignInPageBtn() {
         signinBtn.click();
+        util.waitForElement(500);
+        return signInPageObj;
     }
 
 
-    }
+}

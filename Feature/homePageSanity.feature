@@ -1,9 +1,10 @@
 Feature: Amazon home page sanity scenarios
 
-  Scenario: TC_01_Test Amazon home page positive work flows
+  Background:
     Given I launch url
     Then I verify title
 
-  Scenario: TC_02_I click signIn btn
+
+  Scenario: TC_01_I click signIn btn
     When I click signin btn
-    Then I verify email box is displayed
+#    Then I verify email box is displayed

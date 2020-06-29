@@ -9,11 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 public class SignInPageStepDef extends PageFactoryLib {
-    //every step def class should have @Before
-    @Before
-    public void init() {
-        super.init();
-    }
 
     @Given(" I enter credentials")
     public void iEnterCredentials(String email, String password) {
@@ -22,7 +17,8 @@ public class SignInPageStepDef extends PageFactoryLib {
 
     @Then("I verify email box is displayed")
     public void verifyIfEmailInputBoxIsDsiplayed(){
-        Assert.assertTrue(getSignInPageObj().isSignInPageDisplayed());
+
+        Assert.assertTrue(getSignInPageObj().isEmailBoxDisplayed());
     }
     //every step def class should have @After
     @After

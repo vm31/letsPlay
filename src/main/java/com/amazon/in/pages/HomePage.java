@@ -1,20 +1,21 @@
 package com.amazon.in.pages;
 
-import com.amazon.in.helper.Utility;
+import com.amazon.in.dataProviders.ConfigFileReader;
+import com.amazon.in.helper.FileReaderManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 
     WebDriver driver;
-    Utility util;
     SignInPage signInPageObj;
+    private ConfigFileReader configFileReader;
 
     public HomePage(WebDriver driver) {
-        this.driver = driver;
-        this.util = new Utility(driver);
-        this.signInPageObj = new SignInPage(driver);
+        //driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//title")
@@ -29,10 +30,13 @@ public class HomePage {
         System.out.println("title is:"+x);
         return x;
     }
+    public void navigateHomePage(){
+        driver.get(FileReaderManager.getInstance().getConfigReader().getApplicationUrl());
+    }
 
     public SignInPage clickSignInPageBtn() {
         signinBtn.click();
-        util.waitForElement(500);
+        configFileReader.getImplicitlyWait();
         return signInPageObj;
     }
 

@@ -1,18 +1,20 @@
 package com.amazon.in.pages;
 
-import com.amazon.in.helper.Utility;
+import com.amazon.in.helper.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 
 public class SignInPage {
     WebDriver driver;
-    Utility util;
+    WebDriverManager webDriverManager;
+
 
     public SignInPage(WebDriver driver) {
-        this.driver = driver;
-        this.util = new Utility(driver);
+        PageFactory.initElements(driver, this);
+
     }
 
     @FindBy(xpath="//*[@id='ap_email']")
@@ -25,5 +27,9 @@ public class SignInPage {
             System.out.println("email box is displayed");
         }
         return x;
+    }
+    public void browserQuit(){
+        webDriverManager.quitDriver();
+
     }
 }

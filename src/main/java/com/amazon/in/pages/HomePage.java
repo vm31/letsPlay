@@ -10,24 +10,25 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage{
 
     SignInPage signInPageObj;
-
+    WebDriver driver;
     public HomePage(WebDriver driver) {
+        this.driver= driver;
         this.signInPageObj = new SignInPage(driver);
     }
 
-    @FindBy(xpath = "//*[@id=\"nav-logo\"]/a")
-    private WebElement titleHomepage;
+//    @FindBy(xpath = "//*[@id=\"nav-logo\"]/a")
+//    private WebElement titleHomepage;
+//
+//    @FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
+//    private WebElement signinBtn;
 
-    @FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
-    private WebElement signinBtn;
-
-    public String getTitle(){
-        System.out.println("title is:"+ titleHomepage.getAttribute("aria-label"));
-        return titleHomepage.getText();
+    public void getTitle(){
+        driver.get(("https://amazon.nl"));
+        driver.findElement(By.xpath("//a[@href=\"/ref=nav_logo\"]")).isDisplayed();
     }
 
     public SignInPage clickSignInPageBtn() {
-        signinBtn.click();
+        driver.findElement(By.xpath("//*[@id='nav-link-accountList']")).click();
         return signInPageObj;
     }
 

@@ -6,5 +6,7 @@ Feature: Amazon home page sanity scenarios
 
 
   Scenario: TC_01_I click signIn btn
+    #homepage
     When I click signin btn
-    Then I verify email box is displayed
+    #verify signin page loaded
+    Then this element is displayed

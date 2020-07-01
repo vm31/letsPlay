@@ -25,6 +25,7 @@ public class Runner extends AbstractTestNGCucumberTests {
 
     @BeforeClass
     public void init() {
+        System.out.println("XXXXXXXXXXXX");
         ChromeOptions chromeOptions;
         chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");

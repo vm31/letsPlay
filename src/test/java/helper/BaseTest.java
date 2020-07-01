@@ -24,9 +24,9 @@ public abstract class BaseTest {
         chromeOptions= new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");
         driver=new ChromeDriver(chromeOptions);
-        driver.get("https://www.amazon.nl");
-        homePageObj = PageFactory.initElements(driver, HomePage.class);
-        signInPageObj = PageFactory.initElements(driver, SignInPage.class);
+//        driver.get("https://www.amazon.nl");
+//        homePageObj = PageFactory.initElements(driver, HomePage.class);
+//        signInPageObj = PageFactory.initElements(driver, SignInPage.class);
     }
 
 

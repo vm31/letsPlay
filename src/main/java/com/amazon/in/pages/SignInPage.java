@@ -1,6 +1,6 @@
 package com.amazon.in.pages;
 
-import com.amazon.in.helper.Utility;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,11 +8,11 @@ import org.openqa.selenium.support.FindBy;
 
 public class SignInPage {
     WebDriver driver;
-    Utility util;
+
 
     public SignInPage(WebDriver driver) {
         this.driver = driver;
-        this.util = new Utility(driver);
+//        this.util = new Utility(driver);
     }
 
     @FindBy(xpath="//*[@id='ap_email']")

@@ -1,4 +1,4 @@
-package com.amazon.in.helper;
+package helper;
 
 import org.openqa.selenium.WebDriver;
 

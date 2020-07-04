@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868c91b0-f931-4555-a05e-13a42602a96c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/amzon/in/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/homePageSanity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/homePageSanity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helper/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/SignInPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/SignInPageStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/in/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/in/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/amazon/in/pages/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/amazon/in/pages/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/amazon/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/amazon/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amzon/in/pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/homePageSanity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homePageSanity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Utility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/SignInPageStepDef.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -50,34 +50,16 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: homePageSanity (2)">
-    <configuration name="Feature: homePageSanity (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner (1)">
+    <configuration name="Feature: homePageSanity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Feature/homePageSanity.feature" />
-      <option name="GLUE" value="com.amazon.in.stepdefs com.amazon.in.helper" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="letsPlay" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: homePageSanity" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: homePageSanity (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/homePageSanity.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homePageSanity.feature" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="letsPlay" />
@@ -94,15 +76,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC_01_I click signIn btn (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: homePageSanity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/homePageSanity.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources" />
       <option name="GLUE" value="stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="letsPlay" />
-      <option name="NAME_FILTER" value="^TC_01_I click signIn btn$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_01_I click signIn btn$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC_01_I click signIn btn" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: homePageSanity" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -114,44 +95,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="letsPlay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.amazon.*" />
+          <option name="PATTERN" value="runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.amazon" />
-      <option name="MAIN_CLASS_NAME" value="com.amazon.Runner" />
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.Runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner.getSignInPageObj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="letsPlay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.amazon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.amazon" />
-      <option name="MAIN_CLASS_NAME" value="com.amazon.Runner" />
-      <option name="METHOD_NAME" value="getSignInPageObj" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: homePageSanity" />
+      <item itemvalue="JUnit.Runner (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: homePageSanity (2)" />
-        <item itemvalue="JUnit.Runner.getSignInPageObj" />
-        <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: TC_01_I click signIn btn (1)" />
-        <item itemvalue="Cucumber Java.Feature: homePageSanity (1)" />
+        <item itemvalue="JUnit.Runner (1)" />
+        <item itemvalue="Cucumber Java.Feature: homePageSanity" />
+        <item itemvalue="Cucumber Java.Feature: homePageSanity" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +153,19 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="476" y="130" width="1024" height="845" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1593346083931" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593874636583">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1593874636583" />
     <state x="1920" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1593434699922">
       <screen x="67" y="27" width="3773" height="1053" />
     </state>
     <state x="801" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1593345197771" />
     <state x="1920" y="256" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.3773.1053@67.27.3773.1053" timestamp="1593434699922" />
+    <state x="725" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593874540999">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="725" y="344" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1593874540999" />
     <state x="2409" y="463" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593608177075">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -199,70 +174,73 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2633" y="420" width="494" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608185147" />
-    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1593372518747">
-      <screen x="67" y="27" width="3773" height="1053" />
+    <state x="116" y="125" width="812" height="855" key="DiffContextDialog" timestamp="1593874636941">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
+    <state x="116" y="125" width="812" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1593874636941" />
     <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.3773.1053@67.27.3773.1053" timestamp="1593372518747" />
-    <state x="3241" y="277" width="374" height="497" key="FileChooserDialogImpl" timestamp="1593605200317">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="1342" y="297" width="374" height="485" key="FileChooserDialogImpl" timestamp="1593874624002">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="3241" y="277" width="374" height="497" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593605200317" />
+    <state x="1342" y="297" width="374" height="485" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593698282884" />
+    <state x="1342" y="297" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1593874624002" />
     <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/67.27.3773.1053@67.27.3773.1053" timestamp="1593428704965" />
-    <state width="1807" height="316" key="GridCell.Tab.0.bottom" timestamp="1593624656135">
+    <state width="1807" height="470" key="GridCell.Tab.0.bottom" timestamp="1593874922161">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608213354" />
     <state width="1807" height="443" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612089096" />
-    <state width="1807" height="316" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1593624656135" />
+    <state width="1807" height="470" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1593874922161" />
     <state width="1874" height="284" key="GridCell.Tab.0.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1593436623300" />
-    <state width="1807" height="316" key="GridCell.Tab.0.center" timestamp="1593624656134">
+    <state width="1807" height="470" key="GridCell.Tab.0.center" timestamp="1593874922160">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608213354" />
     <state width="1807" height="443" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612089096" />
-    <state width="1807" height="316" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1593624656134" />
+    <state width="1807" height="470" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1593874922160" />
     <state width="1874" height="284" key="GridCell.Tab.0.center/67.27.3773.1053@67.27.3773.1053" timestamp="1593436623299" />
-    <state width="1807" height="316" key="GridCell.Tab.0.left" timestamp="1593624656133">
+    <state width="1807" height="470" key="GridCell.Tab.0.left" timestamp="1593874922159">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608213354" />
     <state width="1807" height="443" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612089096" />
-    <state width="1807" height="316" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1593624656133" />
+    <state width="1807" height="470" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1593874922159" />
     <state width="1874" height="284" key="GridCell.Tab.0.left/67.27.3773.1053@67.27.3773.1053" timestamp="1593436623299" />
-    <state width="1807" height="316" key="GridCell.Tab.0.right" timestamp="1593624656135">
+    <state width="1807" height="470" key="GridCell.Tab.0.right" timestamp="1593874922160">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608213354" />
     <state width="1807" height="443" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612089096" />
-    <state width="1807" height="316" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1593624656135" />
+    <state width="1807" height="470" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1593874922160" />
     <state width="1874" height="284" key="GridCell.Tab.0.right/67.27.3773.1053@67.27.3773.1053" timestamp="1593436623299" />
-    <state width="1807" height="374" key="GridCell.Tab.1.bottom" timestamp="1593624396642">
+    <state width="1807" height="450" key="GridCell.Tab.1.bottom" timestamp="1593874354307">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608214741" />
     <state width="1807" height="354" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612079054" />
-    <state width="1807" height="374" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1593624396642" />
+    <state width="1807" height="450" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1593874354307" />
     <state width="1874" height="354" key="GridCell.Tab.1.bottom/67.27.3773.1053@67.27.3773.1053" timestamp="1593436516776" />
-    <state width="1807" height="374" key="GridCell.Tab.1.center" timestamp="1593624396641">
+    <state width="1807" height="450" key="GridCell.Tab.1.center" timestamp="1593874354306">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608214741" />
     <state width="1807" height="354" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612079054" />
-    <state width="1807" height="374" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1593624396641" />
+    <state width="1807" height="450" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1593874354306" />
     <state width="1874" height="354" key="GridCell.Tab.1.center/67.27.3773.1053@67.27.3773.1053" timestamp="1593436516776" />
-    <state width="1807" height="374" key="GridCell.Tab.1.left" timestamp="1593624396641">
+    <state width="1807" height="450" key="GridCell.Tab.1.left" timestamp="1593874354306">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608214741" />
     <state width="1807" height="354" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612079054" />
-    <state width="1807" height="374" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1593624396641" />
+    <state width="1807" height="450" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1593874354306" />
     <state width="1874" height="354" key="GridCell.Tab.1.left/67.27.3773.1053@67.27.3773.1053" timestamp="1593436516776" />
-    <state width="1807" height="374" key="GridCell.Tab.1.right" timestamp="1593624396642">
+    <state width="1807" height="450" key="GridCell.Tab.1.right" timestamp="1593874354306">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="354" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593608214741" />
     <state width="1807" height="354" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1593612079054" />
-    <state width="1807" height="374" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1593624396642" />
+    <state width="1807" height="450" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1593874354306" />
     <state width="1874" height="354" key="GridCell.Tab.1.right/67.27.3773.1053@67.27.3773.1053" timestamp="1593436516776" />
     <state x="2413" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1593370687654">
       <screen x="67" y="27" width="3773" height="1053" />
@@ -282,12 +260,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepDef.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepDef.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefs/Steps.java</url>
           <line>28</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -307,14 +280,14 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/helper/BaseTest.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/amazon/Runner.java</url>
           <line>28</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepdefs/Steps.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

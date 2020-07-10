@@ -66,6 +66,7 @@ public class signinStep extends BaseTest{
 
     @And("user closes browser")
     public void userClosesBrowser() {
+
         driver.quit();
     }
 }

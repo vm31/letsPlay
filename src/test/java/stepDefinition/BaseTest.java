@@ -34,16 +34,20 @@ public class BaseTest {
 
 
         if (driver==null) {
+            //br.equals("chrome");
             System.setProperty("webdriver.chrome.driver", configprop.getProperty("chrome_path"));
             driver = new ChromeDriver();
+            driver.manage().window().maximize();
 
-        //} else if (br.equals("firefox")) {
-           // System.setProperty("webdriver.gecko.driver", configprop.getProperty("firefox_path"));
-            //driver = new FirefoxDriver();
-        //} else if (br.equals("ie")) {
+        }//else if (driver.equals(configprop.getProperty("BROWSER=firefox"))) {
+
+            //System.setProperty("webdriver.gecko.driver", configprop.getProperty("firefox_path"));
+           // driver = new FirefoxDriver();
+       // } //else if (br.equals("ie")) {
+
             //System.setProperty("webdriver.ie.driver", configprop.getProperty("ie_path"));
-            //driver= new InternetExplorerDriver();
-        }
+           // driver= new InternetExplorerDriver();
+        //}
         return driver;
     }
 

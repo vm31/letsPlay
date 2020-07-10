@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868c91b0-f931-4555-a05e-13a42602a96c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/amzon/in/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amzon/in/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/in/pages/common.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/homePageSanity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homePageSanity.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helper/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/HomePageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/SignInPageStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/homePageSanity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/homePageSanity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homePageSanity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/homePageSanity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/Steps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner (1)">
+  <component name="RunManager" selected="Cucumber Java.Feature: homePageSanity">
     <configuration name="Feature: homePageSanity" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/homePageSanity.feature" />
@@ -116,8 +110,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Runner (1)" />
         <item itemvalue="Cucumber Java.Feature: homePageSanity" />
+        <item itemvalue="JUnit.Runner (1)" />
         <item itemvalue="Cucumber Java.Feature: homePageSanity" />
       </list>
     </recent_temporary>
@@ -261,7 +255,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepdefs/Steps.java</url>
-          <line>28</line>
+          <line>30</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -286,7 +280,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/stepdefs/Steps.java</url>
-          <line>21</line>
+          <line>23</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>

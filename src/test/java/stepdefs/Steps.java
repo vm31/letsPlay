@@ -2,6 +2,8 @@ package stepdefs;
 
 import amzon.in.pages.HomePage;
 import amzon.in.pages.SignInPage;
+import io.cucumber.java.After;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -29,6 +31,11 @@ public class Steps {
     public void he_search_for(String product)  {
         HomePage homePageObj = new HomePage(driver);
         homePageObj.search(product);
+    }
+
+    @And("I quit")
+    public void iQuit(){
+        driver.quit();
     }
 
 

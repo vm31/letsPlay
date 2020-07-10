@@ -112,6 +112,7 @@
                     <encoding>UTF-8</encoding>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <includes><exclude>**/*Runner.java</exclude></includes>
                 </configuration>
             </plugin>
             <plugin>

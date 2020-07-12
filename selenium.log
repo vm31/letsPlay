@@ -63,3 +63,8 @@
 2020-07-11 13:43:39,362 INFO main letsCucumber - *****opening url****
 2020-07-11 13:43:39,370 INFO main letsCucumber - *** user clicks on signin page***
 2020-07-11 13:43:46,855 INFO main letsCucumber - ***user verify login page title***
+2020-07-12 18:59:55,992 INFO main letsCucumber - *****opening url****
+2020-07-12 18:59:56,086 INFO main letsCucumber - ***verifying homepage ****
+2020-07-12 19:00:01,515 INFO main letsCucumber - *****opening url****
+2020-07-12 19:00:01,521 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-12 19:00:05,899 INFO main letsCucumber - ***user verify login page title***

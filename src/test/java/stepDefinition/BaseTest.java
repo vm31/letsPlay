@@ -24,7 +24,7 @@ public class BaseTest {
 
     protected static WebDriver driver;
 
-    protected WebDriver getDriver() throws IOException, InterruptedException {
+    protected WebDriver getDriver() throws IOException {
         utility = new Utility(driver);
         //reading data property
         configprop = new Properties();
@@ -37,7 +37,7 @@ public class BaseTest {
             //br.equals("chrome");
             System.setProperty("webdriver.chrome.driver", configprop.getProperty("chrome_path"));
             driver = new ChromeDriver();
-            Thread.sleep(2000);
+
             driver.manage().window().maximize();
 
         }//else if (driver.equals(configprop.getProperty("BROWSER=firefox"))) {

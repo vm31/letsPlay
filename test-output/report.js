@@ -1,41 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:features/Signin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:features/loginFlow.feature");
 formatter.feature({
-  "name": "Amazon positive flow test cases",
+  "name": "Amazon login flow test cases",
   "description": "",
   "keyword": "Feature"
 });
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.step({
-  "name": "user Navigate to home page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "homePageStep.user_Navigate_to_home_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Home page",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "name": "user verify amazon home display",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "homePageStep.user_verify_amazon_home_display()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.scenarioOutline({
-  "name": "verify login page with valid credentials",
+  "name": "verify login page with invalid user name",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -56,12 +26,12 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "name": "user enters password as \"\u003cpassword\u003e\"",
-  "keyword": "Given "
+  "name": "user verify the error message displayed",
+  "keyword": "Then "
 });
 formatter.step({
-  "name": "user clicks on login",
-  "keyword": "Then "
+  "name": "user returs back on login page",
+  "keyword": "And "
 });
 formatter.step({
   "name": "user closes browser",
@@ -80,8 +50,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "arch.gajula@gmail.com",
-        "aran1128"
+        "arch.gajulaffcgfg@gmail.com",
+        "aran2016"
       ]
     }
   ]
@@ -101,8 +71,18 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "user verify amazon home display",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "homePageStep.user_verify_amazon_home_display()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "verify login page with valid credentials",
+  "name": "verify login page with invalid user name",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -127,7 +107,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters email address as \"arch.gajula@gmail.com\"",
+  "name": "user enters email address as \"arch.gajulaffcgfg@gmail.com\"",
   "keyword": "Given "
 });
 formatter.match({
@@ -147,21 +127,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters password as \"aran1128\"",
-  "keyword": "Given "
+  "name": "user verify the error message displayed",
+  "keyword": "Then "
 });
 formatter.match({
-  "location": "signinStep.user_enters_password_as(String)"
+  "location": "signinStep.userVerifyTheErrorMessageDisplayed()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user clicks on login",
-  "keyword": "Then "
+  "name": "user returs back on login page",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "signinStep.user_clicks_on_login()"
+  "location": "signinStep.userRetursBackOnLoginPage()"
 });
 formatter.result({
   "status": "passed"

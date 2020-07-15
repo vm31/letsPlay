@@ -1,7 +1,7 @@
 2020-07-04 19:38:02,835 INFO main letsCucumber - *****opening url****
 2020-07-04 19:38:02,848 INFO main letsCucumber - ***verifying homepage ****
 2020-07-04 19:38:06,373 INFO main letsCucumber - *****opening url****
-2020-07-05 12:09:06,796 INFO main letsCucumber - *****opening url****
+2020-07-05 12:09:06,796 INFO main letsCucumber - ****opening url****
 2020-07-05 12:09:06,808 INFO main letsCucumber - ***verifying homepage ****
 2020-07-05 12:09:14,540 INFO main letsCucumber - *****opening url****
 2020-07-05 12:09:14,544 INFO main letsCucumber - *** user clicks on signin page***
@@ -83,3 +83,26 @@
 2020-07-13 16:07:37,092 INFO main letsCucumber - *****opening url****
 2020-07-13 16:07:37,096 INFO main letsCucumber - *** user clicks on signin page***
 2020-07-13 16:07:42,444 INFO main letsCucumber - ***user verify login page title***
+2020-07-15 15:00:36,344 INFO main letsCucumber - *****opening url****
+2020-07-15 15:00:36,448 INFO main letsCucumber - ***verifying homepage ****
+2020-07-15 15:00:46,162 INFO main letsCucumber - *****opening url****
+2020-07-15 15:00:46,166 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-15 15:00:49,570 INFO main letsCucumber - ***user verify login page title***
+2020-07-15 15:01:07,211 INFO main letsCucumber - *****opening url****
+2020-07-15 15:01:07,215 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-15 15:06:20,322 INFO main letsCucumber - *****opening url****
+2020-07-15 15:06:20,350 INFO main letsCucumber - ***verifying homepage ****
+2020-07-15 15:06:24,760 INFO main letsCucumber - *****opening url****
+2020-07-15 15:06:24,768 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-15 15:06:31,196 INFO main letsCucumber - ***user verify login page title***
+2020-07-15 15:06:47,049 INFO main letsCucumber - *****opening url****
+2020-07-15 15:06:47,051 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-15 15:09:24,078 INFO main letsCucumber - *****opening url****
+2020-07-15 15:09:24,090 INFO main letsCucumber - ***verifying homepage ****
+2020-07-15 15:09:28,008 INFO main letsCucumber - *****opening url****
+2020-07-15 15:09:28,016 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-15 15:09:33,790 INFO main letsCucumber - ***user verify login page title***
+2020-07-15 15:33:50,165 INFO main letsCucumber - *****opening url****
+2020-07-15 15:33:50,217 INFO main letsCucumber - ***verifying homepage ****
+2020-07-15 15:33:51,853 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-15 15:33:57,399 INFO main letsCucumber - ***user verify login page title***

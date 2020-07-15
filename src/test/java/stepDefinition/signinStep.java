@@ -24,6 +24,7 @@ public class signinStep extends BaseTest{
         signInPage=new SignInPage(driver);
         utility=new Utility(driver);
         signInPage.clickOnSignIn();
+        utility.waitForElement(2000);
 
     }
 
@@ -68,5 +69,17 @@ public class signinStep extends BaseTest{
     public void userClosesBrowser() {
 
         driver.quit();
+    }
+
+    @Then("user verify the error message displayed")
+    public void userVerifyTheErrorMessageDisplayed() {
+        signInPage.errorMessageInvalidUsername();
+    }
+
+
+    @And("user returns back on login page")
+    public void userReturnsBackOnLoginPage() {
+        signInPage.UserOnLoginPage();
+        System.out.println("***user returns to login page***");
     }
 }

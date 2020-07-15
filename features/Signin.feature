@@ -10,7 +10,9 @@ Feature: Amazon positive flow test cases
     Then user clicks on continue
     Given user enters password as "<password>"
     Then user clicks on login
-    And user closes browser
+
+
   Examples:
     |email  |password|
-  |arch.gajula@gmail.com|aran1128|
+  |arch.gajula@gmail.com|aran2016|
+

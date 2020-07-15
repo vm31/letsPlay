@@ -9,44 +9,66 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SignInPage {
     public WebDriver ldriver;
-    public SignInPage(WebDriver rdriver){
-        ldriver=rdriver;
-        PageFactory.initElements(rdriver,this);
+
+    public SignInPage(WebDriver rdriver) {
+        ldriver = rdriver;
+        PageFactory.initElements(rdriver, this);
 
     }
-    @FindBy(xpath="//span[contains(text(),'Account & Lists')]")
+
+    @FindBy(xpath = "//span[contains(text(),'Account & Lists')]")
     @CacheLookup
     WebElement SignInBtn;
-    @FindBy(xpath="//input[@id='ap_email']")
+    @FindBy(xpath = "//input[@id='ap_email']")
     @CacheLookup
     WebElement EmailBox;
-    @FindBy(xpath="//input[@id='continue']")
+    @FindBy(xpath = "//input[@id='continue']")
     @CacheLookup
     WebElement ContinueBtn;
-    @FindBy(xpath="//input[@id='ap_password']")
+    @FindBy(xpath = "//input[@id='ap_password']")
     @CacheLookup
     WebElement PwdBox;
-    @FindBy(xpath="//input[@id='signInSubmit']")
+    @FindBy(xpath = "//input[@id='signInSubmit']")
     @CacheLookup
     WebElement LoginBtn;
+    @FindBy(xpath = "//div[@id='auth-error-message-box']//div[@class='a-alert-content']")
+    @CacheLookup
+    WebElement ErrorMsgUsername;
+
 
     //action methos for login flow
-    public void clickOnSignIn(){
+    public void clickOnSignIn() {
         SignInBtn.click();
     }
-    public void EnterEmail(String email){
+
+    public void EnterEmail(String email) {
         EmailBox.sendKeys(email);
 
     }
-    public void clickContonue(){
+
+    public void clickContonue() {
 
         ContinueBtn.click();
+
     }
-    public void enterPassword(String pwd){
+
+    public void enterPassword(String pwd) {
         PwdBox.sendKeys(pwd);
     }
-    public void clickOnLogin(){
+
+    public void clickOnLogin() {
         LoginBtn.click();
     }
 
+
+    //action methods for invalid username
+    public void errorMessageInvalidUsername() {
+        ErrorMsgUsername.isDisplayed();
+
+    }
+    public void UserOnLoginPage(){
+        ldriver.getPageSource();
+
+
+    }
 }

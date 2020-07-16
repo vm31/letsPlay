@@ -178,3 +178,51 @@
 2020-07-16 18:25:36,076 INFO main letsCucumber - *** user clicks on login button***
 2020-07-16 18:25:36,298 INFO main letsCucumber - *** user checks invalid password message***
 2020-07-16 18:25:36,299 INFO main letsCucumber - *** user close browser***
+2020-07-16 20:30:00,956 INFO main letsCucumber - *****opening url****
+2020-07-16 20:30:01,056 INFO main letsCucumber - ***verifying homepage ****
+2020-07-16 20:30:03,942 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-16 20:30:10,367 INFO main letsCucumber - ***user verify login page title***
+2020-07-16 20:30:13,123 INFO main letsCucumber - *** user enters username***
+2020-07-16 20:30:17,337 INFO main letsCucumber - *** user checks error invalid username message***
+2020-07-16 20:30:17,341 INFO main letsCucumber - *** user close browser***
+2020-07-16 20:30:24,801 INFO main letsCucumber - *****opening url****
+2020-07-16 20:30:24,854 INFO main letsCucumber - ***verifying homepage ****
+2020-07-16 20:30:26,361 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-16 20:30:32,049 INFO main letsCucumber - ***user verify login page title***
+2020-07-16 20:30:34,690 INFO main letsCucumber - *** user enters username***
+2020-07-16 20:30:39,499 INFO main letsCucumber - *** user enters password***
+2020-07-16 20:30:41,221 INFO main letsCucumber - *** user clicks on login button***
+2020-07-16 20:30:41,470 INFO main letsCucumber - *** user checks invalid password message***
+2020-07-16 20:30:41,474 INFO main letsCucumber - *** user close browser***
+2020-07-16 20:36:36,340 INFO main letsCucumber - *****opening url****
+2020-07-16 20:36:36,445 INFO main letsCucumber - ***verifying homepage ****
+2020-07-16 20:36:37,149 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-16 20:36:42,405 INFO main letsCucumber - ***user verify login page title***
+2020-07-16 20:36:45,210 INFO main letsCucumber - *** user enters username***
+2020-07-16 20:36:47,929 INFO main letsCucumber - *** user checks error invalid username message***
+2020-07-16 20:36:47,929 INFO main letsCucumber - *** user close browser***
+2020-07-16 20:36:57,985 INFO main letsCucumber - *****opening url****
+2020-07-16 20:36:57,985 INFO main letsCucumber - ***verifying homepage ****
+2020-07-16 20:36:58,846 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-16 20:37:02,970 INFO main letsCucumber - ***user verify login page title***
+2020-07-16 20:37:05,400 INFO main letsCucumber - *** user enters username***
+2020-07-16 20:37:07,914 INFO main letsCucumber - *** user checks error invalid username message***
+2020-07-16 20:37:07,914 INFO main letsCucumber - *** user close browser***
+2020-07-16 20:37:20,268 INFO main letsCucumber - *****opening url****
+2020-07-16 20:37:20,268 INFO main letsCucumber - ***verifying homepage ****
+2020-07-16 20:37:20,429 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-16 20:37:23,551 INFO main letsCucumber - ***user verify login page title***
+2020-07-16 20:37:26,189 INFO main letsCucumber - *** user enters username***
+2020-07-16 20:37:30,968 INFO main letsCucumber - *** user enters password***
+2020-07-16 20:37:32,992 INFO main letsCucumber - *** user clicks on login button***
+2020-07-16 20:37:33,212 INFO main letsCucumber - *** user checks invalid password message***
+2020-07-16 20:37:33,212 INFO main letsCucumber - *** user close browser***
+2020-07-16 20:37:41,005 INFO main letsCucumber - *****opening url****
+2020-07-16 20:37:41,009 INFO main letsCucumber - ***verifying homepage ****
+2020-07-16 20:37:42,460 INFO main letsCucumber - *** user clicks on signin page***
+2020-07-16 20:37:47,677 INFO main letsCucumber - ***user verify login page title***
+2020-07-16 20:37:50,050 INFO main letsCucumber - *** user enters username***
+2020-07-16 20:37:55,031 INFO main letsCucumber - *** user enters password***
+2020-07-16 20:37:57,331 INFO main letsCucumber - *** user clicks on login button***
+2020-07-16 20:37:57,525 INFO main letsCucumber - *** user checks invalid password message***
+2020-07-16 20:37:57,526 INFO main letsCucumber - *** user close browser***

@@ -1,22 +1,66 @@
 package stepDefinition;
 
+import common.BaseTest;
 import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
 import helper.Utility;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import pages.HomePage;
 import pages.SignInPage;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Properties;
 
-public class signinStep extends BaseTest{
-    WebDriver driver=getDriver();
+public class signinStep extends BaseTest {
 
-    public signinStep() throws IOException {
+    @Before
+    public void setup() throws IOException {
+        configprop = new Properties();
+        FileInputStream configPropfile = new FileInputStream("data.properties");
+        configprop.load(configPropfile);
+        logger= Logger.getLogger("letsCucumber");//added logger
+        PropertyConfigurator.configure("log4j.properties");
+
+        String br = configprop.getProperty("BROWSER");
+        if (br.equals("chrome"))
+        {
+        System.setProperty("webdriver.chrome.driver", configprop.getProperty("chrome_path"));
+        driver = new ChromeDriver();
+        }
+        else if (br.equals("firefox")){
+            System.setProperty("webdriver.gecko.driver", configprop.getProperty("firefox_path"));
+            driver = new FirefoxDriver();
+
+        }
+        else if(br.equals("ie")){
+            System.setProperty("webdriver.ie.driver", configprop.getProperty("ie_path"));
+            driver = new InternetExplorerDriver();
+        }
+
     }
-    //public WebDriver driver;
-    //public HomePage homePage;
-    //public SignInPage signInPage;
+
+    @Given("user Navigate to home page")
+    public void user_Navigate_to_home_page() {
+        driver.get("https://www.amazon.in");
+        logger.info("*****opening url****");
+        homePage=new HomePage(driver);
+
+    }
+
+    @Then("user verify amazon home display")
+    public void user_verify_amazon_home_display() {
+        logger.info("***verifying homepage ****");
+
+        homePage.verifyAmazonDispay();
+    }
 
     @Then("user clicks on signIn page")
     public void user_clicks_on_signIn_page() {
@@ -69,7 +113,8 @@ public class signinStep extends BaseTest{
         logger.info("*** user clicks on login button***");
     }
 
-    @And("user closes browser")
+    //@And("user closes browser")
+    @After
     public void userClosesBrowser() {
         logger.info("*** user close browser***");
         driver.quit();

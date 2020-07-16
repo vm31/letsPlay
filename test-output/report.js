@@ -10,6 +10,14 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
+  "name": "user Navigate to home page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user verify amazon home display",
+  "keyword": "Then "
+});
+formatter.step({
   "name": "user clicks on signIn page",
   "keyword": "Then "
 });
@@ -29,10 +37,6 @@ formatter.step({
   "name": "user verify the error message displayed",
   "keyword": "Then "
 });
-formatter.step({
-  "name": "user returns back on login page",
-  "keyword": "And "
-});
 formatter.examples({
   "name": "",
   "description": "",
@@ -40,29 +44,30 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "email",
-        "password"
+        "email"
       ]
     },
     {
       "cells": [
-        "arch.gajulaffcgfg@gmail.com",
-        "aran2016"
+        "arch.gajulaffcgfg@gmail.com"
       ]
     }
   ]
 });
-formatter.background({
-  "name": "",
+formatter.scenario({
+  "name": "verify login page with invalid user name",
   "description": "",
-  "keyword": "Background"
+  "keyword": "Scenario Outline"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user Navigate to home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "homePageStep.user_Navigate_to_home_page()"
+  "location": "signinStep.user_Navigate_to_home_page()"
 });
 formatter.result({
   "status": "passed"
@@ -72,15 +77,10 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "homePageStep.user_verify_amazon_home_display()"
+  "location": "signinStep.user_verify_amazon_home_display()"
 });
 formatter.result({
   "status": "passed"
-});
-formatter.scenario({
-  "name": "verify login page with invalid user name",
-  "description": "",
-  "keyword": "Scenario Outline"
 });
 formatter.step({
   "name": "user clicks on signIn page",
@@ -132,20 +132,21 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.step({
-  "name": "user returns back on login page",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "signinStep.userReturnsBackOnLoginPage()"
-});
-formatter.result({
+formatter.after({
   "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "verify login page with invalid password",
   "description": "",
   "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "user Navigate to home page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "user verify amazon home display",
+  "keyword": "Then "
 });
 formatter.step({
   "name": "user clicks on signIn page",
@@ -175,10 +176,6 @@ formatter.step({
   "name": "verify error message displayed",
   "keyword": "Then "
 });
-formatter.step({
-  "name": "user closes browser",
-  "keyword": "And "
-});
 formatter.examples({
   "name": "",
   "description": "",
@@ -198,17 +195,20 @@ formatter.examples({
     }
   ]
 });
-formatter.background({
-  "name": "",
+formatter.scenario({
+  "name": "verify login page with invalid password",
   "description": "",
-  "keyword": "Background"
+  "keyword": "Scenario Outline"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user Navigate to home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "homePageStep.user_Navigate_to_home_page()"
+  "location": "signinStep.user_Navigate_to_home_page()"
 });
 formatter.result({
   "status": "passed"
@@ -218,15 +218,10 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "homePageStep.user_verify_amazon_home_display()"
+  "location": "signinStep.user_verify_amazon_home_display()"
 });
 formatter.result({
   "status": "passed"
-});
-formatter.scenario({
-  "name": "verify login page with invalid password",
-  "description": "",
-  "keyword": "Scenario Outline"
 });
 formatter.step({
   "name": "user clicks on signIn page",
@@ -298,14 +293,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.step({
-  "name": "user closes browser",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "signinStep.userClosesBrowser()"
-});
-formatter.result({
+formatter.after({
   "status": "passed"
 });
 });

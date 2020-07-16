@@ -17,6 +17,13 @@
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RWB5RKX.com/cleartripnew1.com.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RWPBZT6/NewMavenProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RYHRBO0/MyNewProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailProject/gmailProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmailProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnCucumber.project/learnCucumber.project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/.idea/modules.xml" afterDir="false" />
@@ -151,11 +158,16 @@
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/report.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/loginFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/loginFlow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/selenium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/homePageStep.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/signinStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/signinStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/homePageStep.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/signinStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/signinStep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
     </list>
@@ -313,33 +325,33 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594814232526" />
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1594830163832">
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1594903545165">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594830163832" />
-    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1594830163831">
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594903545165" />
+    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1594903545165">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594830163831" />
-    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1594830163831">
+    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594903545164" />
+    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1594903545164">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594830163831" />
-    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1594830163831">
+    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594903545164" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1594903545165">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594830163831" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594903545165" />
     <state x="263" y="106" key="IDE.errors.dialog" timestamp="1594560723414">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1594560723414" />
-    <state x="65" y="44" key="new project wizard" timestamp="1594892207339">
+    <state x="65" y="8" key="new project wizard" timestamp="1594897270131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="65" y="44" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1594892207339" />
+    <state x="65" y="8" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1594897270131" />
   </component>
 </project>

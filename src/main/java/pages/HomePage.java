@@ -18,10 +18,9 @@ public class HomePage {
     @CacheLookup
     WebElement AmazonDispaly;
 
-    public void navigateToUrl(){
-
-        ldriver.get("https://www.amazon.in");
-    }
+    //public void navigateToUrl(){
+        //ldriver.get("https://www.amazon.in");
+   // }
     public void verifyAmazonDispay(){
         AmazonDispaly.isDisplayed();
 

@@ -34,6 +34,10 @@ public class SignInPage {
     @FindBy(xpath = "//div[@id='auth-error-message-box']//div[@class='a-alert-content']")
     @CacheLookup
     WebElement ErrorMsgUsername;
+    @FindBy(xpath = "//div[@id='auth-error-message-box']//div[@class='a-alert-content']")
+    @CacheLookup
+    WebElement ErrorMsgPassword;
+
 
 
     //action methos for login flow
@@ -43,6 +47,7 @@ public class SignInPage {
 
     public void EnterEmail(String email) {
         EmailBox.sendKeys(email);
+
 
     }
 
@@ -71,4 +76,10 @@ public class SignInPage {
 
 
     }
+    //action methods for invalid password
+    public  void errorMessageInvalidPassword(){
+        ErrorMsgPassword.isDisplayed();
+
+    }
+
 }

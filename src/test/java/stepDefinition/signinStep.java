@@ -43,6 +43,8 @@ public class signinStep extends BaseTest{
     public void user_enters_email_address_as(String em) {
         utility.waitForElement(2000);
         signInPage.EnterEmail(em);
+        logger.info("*** user enters username***");
+
 
     }
 
@@ -56,6 +58,7 @@ public class signinStep extends BaseTest{
     public void user_enters_password_as(String pw) {
         utility.waitForElement(2000);
         signInPage.enterPassword(pw);
+        logger.info("*** user enters password***");
 
     }
 
@@ -63,17 +66,20 @@ public class signinStep extends BaseTest{
     public void user_clicks_on_login() {
 
         signInPage.clickOnLogin();
+        logger.info("*** user clicks on login button***");
     }
 
     @And("user closes browser")
     public void userClosesBrowser() {
-
+        logger.info("*** user close browser***");
         driver.quit();
     }
 
     @Then("user verify the error message displayed")
     public void userVerifyTheErrorMessageDisplayed() {
+
         signInPage.errorMessageInvalidUsername();
+        logger.info("*** user checks error invalid username message***");
     }
 
 
@@ -81,5 +87,11 @@ public class signinStep extends BaseTest{
     public void userReturnsBackOnLoginPage() {
         signInPage.UserOnLoginPage();
         System.out.println("***user returns to login page***");
+    }
+
+    @Then("verify error message displayed")
+    public void verifyErrorMessageDisplayed() {
+        signInPage.errorMessageInvalidPassword();
+        logger.info("*** user checks invalid password message***");
     }
 }

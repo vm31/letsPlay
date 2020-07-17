@@ -1,11 +1,11 @@
 package pages;
 
-import com.sun.tools.javac.util.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class SignInPage {
     public WebDriver ldriver;
@@ -67,8 +67,8 @@ public class SignInPage {
 
 
     //action methods for invalid username
-    public void errorMessageInvalidUsername() {
-        ErrorMsgUsername.isDisplayed();
+    public boolean errorMessageInvalidUsername() {
+        return ErrorMsgUsername.isDisplayed();
 
     }
     public void UserOnLoginPage(){
@@ -77,8 +77,11 @@ public class SignInPage {
 
     }
     //action methods for invalid password
-    public  void errorMessageInvalidPassword(){
-        ErrorMsgPassword.isDisplayed();
+    public  boolean errorMessageInvalidPassword(){
+
+       return ErrorMsgPassword.isDisplayed();
+
+
 
     }
 

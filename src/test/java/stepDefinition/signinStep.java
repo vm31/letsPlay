@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Assert;
 import pages.HomePage;
 import pages.SignInPage;
 
@@ -47,11 +48,13 @@ public class signinStep extends BaseTest {
 
     }
 
-    @Given("user Navigate to home page")
-    public void user_Navigate_to_home_page() {
-        driver.get("https://www.amazon.in");
+    @Given("user Navigate to home page {string}")
+    public void user_Navigate_to_home_page(String url) {
+        driver.get(url);
         logger.info("*****opening url****");
         homePage=new HomePage(driver);
+        signInPage=new SignInPage(driver);
+        utility=new Utility(driver);
 
     }
 
@@ -65,8 +68,7 @@ public class signinStep extends BaseTest {
     @Then("user clicks on signIn page")
     public void user_clicks_on_signIn_page() {
         logger.info("*** user clicks on signin page***");
-        signInPage=new SignInPage(driver);
-        utility=new Utility(driver);
+
         signInPage.clickOnSignIn();
         utility.waitForElement(2000);
 
@@ -75,12 +77,7 @@ public class signinStep extends BaseTest {
     @Then("user verify Login page title {string}")
     public void user_verify_Login_page_title(String string) {
         logger.info("***user verify login page title***");
-        if(driver.getTitle().contains(string))
-            //Pass
-            System.out.println("Page title contains \"Amazon login page\" ");
-        else
-            //Fail
-            System.out.println("Page title doesn't contains \"Amazon login page\" ");
+        Assert.assertEquals(string, driver.getTitle());
     }
 
     @Given("user enters email address as {string}")
@@ -122,11 +119,9 @@ public class signinStep extends BaseTest {
 
     @Then("user verify the error message displayed")
     public void userVerifyTheErrorMessageDisplayed() {
-
-        signInPage.errorMessageInvalidUsername();
         logger.info("*** user checks error invalid username message***");
+        Assert.assertTrue(signInPage.errorMessageInvalidUsername());
     }
-
 
     @And("user returns back on login page")
     public void userReturnsBackOnLoginPage() {
@@ -136,7 +131,6 @@ public class signinStep extends BaseTest {
 
     @Then("verify error message displayed")
     public void verifyErrorMessageDisplayed() {
-        signInPage.errorMessageInvalidPassword();
-        logger.info("*** user checks invalid password message***");
+        Assert.assertTrue(signInPage.errorMessageInvalidPassword());
     }
 }

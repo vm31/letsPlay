@@ -8,10 +8,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
     public WebDriver ldriver;
+
+
     public HomePage(WebDriver rdriver){
         ldriver=rdriver;
         PageFactory.initElements(rdriver,this);
 
+    }
+    public void getHomePageTitle(){
+        ldriver.getTitle();
     }
 
     @FindBy(xpath="//*[@id=\"nav-logo\"]/a")
@@ -21,8 +26,9 @@ public class HomePage {
     //public void navigateToUrl(){
         //ldriver.get("https://www.amazon.in");
    // }
-    public void verifyAmazonDispay(){
-        AmazonDispaly.isDisplayed();
+    public boolean verifyAmazonDispay(){
+         return AmazonDispaly.isDisplayed(); }
 
-        }
+
+
 }

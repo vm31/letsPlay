@@ -11,19 +11,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8add0cd0-1e36-40e7-9df3-1c23c8ed8dde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$R8I2RJ5/gmailProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$R8YMKR3/cleartrip_project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$R9SS7NM.com/iam_functional_testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RLGXWKT/demo-project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RQ1RDWM/bddCucumber.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RWB5RKX.com/cleartripnew1.com.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RWPBZT6/NewMavenProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../$RECYCLE.BIN/S-1-5-21-2819850129-4238624658-1921042661-1001/$RYHRBO0/MyNewProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmailProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmailProject/gmailProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gmailProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/demo-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/libraries/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/libraries/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/src/main/java/helper/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/src/main/java/pages/SigninPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/src/test/java/baseTest/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/src/test/java/stepDefinition/loginStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-project/src/test/java/testRunner/runner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnCucumber.project/learnCucumber.project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/.idea/modules.xml" afterDir="false" />
@@ -32,6 +46,7 @@
       <change afterPath="$PROJECT_DIR$/../learnJava/learnJava.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/out/production/learnJava/helloWorld.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../learnJava/src/helloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/loginStep.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../letsPlay" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/bddPoc/bddCucumber.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/bddPoc/target/bddCucumber-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -88,6 +103,7 @@
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/cucumberBddFramwork/src/test/java/stepDefinitions/CreateAccountStep.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/cucumberBddFramwork/src/test/java/stepDefinitions/OneWayStep.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/cucumberBddFramwork/test-output/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sampleMavenproject/demo-cucumber-project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/learnCucumberBdd.project/learnCucumberBdd.project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/.classpath" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/.gitignore" afterDir="false" />
@@ -158,15 +174,18 @@
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/report.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sampleMavenproject/letsPlay-master/test-output/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/Signin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Signin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/loginFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/loginFlow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/selenium.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/signinStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/signinStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/signinStep.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/signinStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinition/signinStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.runner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinition/signinStep.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,6 +202,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1e4wlv5mxCwnFab5gytdbLUkJ6z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -198,7 +218,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="C:/Users/Public/Downloads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sampleMavenproject/demo-cucumber-project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -212,7 +232,7 @@
       <recent name="E:\letsCucumber" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.runner">
+  <component name="RunManager" selected="Cucumber Java.Feature: Signin">
     <configuration name="Feature: Signin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/features/Signin.feature" />
@@ -221,6 +241,25 @@
       <module name="letsCucumberJava" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Signin" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: loginFlow" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/features/loginFlow.feature" />
+      <option name="GLUE" value="stepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="letsCucumberJava" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: loginFlow" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -263,14 +302,16 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: Signin" />
+      <item itemvalue="Cucumber Java.Feature: loginFlow" />
       <item itemvalue="JUnit.TestRunner in letsCucumberJava" />
       <item itemvalue="JUnit.runner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: Signin" />
+        <item itemvalue="Cucumber Java.Feature: loginFlow" />
         <item itemvalue="JUnit.runner" />
         <item itemvalue="JUnit.TestRunner in letsCucumberJava" />
-        <item itemvalue="Cucumber Java.Feature: Signin" />
       </list>
     </recent_temporary>
   </component>
@@ -319,37 +360,45 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="363" y="107" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1594820075573" />
-    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1594814232526">
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1594996673836">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594814232526" />
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1594973562836">
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1594996673836" />
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom" timestamp="1594999257139">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594973562836" />
-    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1594973562836">
+    <state width="1306" height="190" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1594999257139" />
+    <state width="1306" height="190" key="GridCell.Tab.0.center" timestamp="1594999257139">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594973562836" />
-    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1594973562836">
+    <state width="1306" height="190" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1594999257139" />
+    <state width="1306" height="190" key="GridCell.Tab.0.left" timestamp="1594999257138">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594973562836" />
-    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1594973562836">
+    <state width="1306" height="190" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1594999257138" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right" timestamp="1594999257139">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593748100081" />
-    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594973562836" />
+    <state width="1306" height="190" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1594999257139" />
     <state x="263" y="106" key="IDE.errors.dialog" timestamp="1594560723414">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.768@0.0.1366.768" timestamp="1594560723414" />
-    <state x="65" y="8" key="new project wizard" timestamp="1594897270131">
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1594973980762">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="65" y="8" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1594897270131" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1594973980762" />
+    <state x="65" y="8" key="new project wizard" timestamp="1595057204137">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="65" y="8" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1595057204137" />
+    <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1594985310905">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="435" y="293" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1594985310905" />
   </component>
 </project>

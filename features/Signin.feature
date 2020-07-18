@@ -1,16 +1,14 @@
 Feature: Amazon positive flow test cases
   Background:
-    Given user Navigate to home page
-  Scenario: Home page
-    Then user verify amazon home display
+    Given i open home page "https://www.amazon.in"
+    Then  verify amazon home display
   Scenario Outline:verify login page with valid credentials
-    Then user clicks on signIn page
-    Then user verify Login page title "Amazon Sign In"
-    Given user enters email address as "<email>"
-    Then user clicks on continue
-    Given user enters password as "<password>"
-    Then user clicks on login
-
+    Then i click on signIn page
+    Then verify Login page title "Amazon Sign In"
+    Given i enter email address as "<email>"
+    Then i click on continue
+    Given i enter password as "<password>"
+    Then i click on login
 
   Examples:
     |email  |password|

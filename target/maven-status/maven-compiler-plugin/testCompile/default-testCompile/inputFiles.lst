@@ -1,4 +1,3 @@
-E:\letsCucumber\src\test\java\stepDefinition\homePageStep.java
-E:\letsCucumber\src\test\java\stepDefinition\signinStep.java
 E:\letsCucumber\src\test\java\TestRunner\runner.java
-E:\letsCucumber\src\test\java\stepDefinition\BaseTest.java
+E:\letsCucumber\src\test\java\common\BaseTest.java
+E:\letsCucumber\src\test\java\stepDefinition\loginStep.java

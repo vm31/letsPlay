@@ -33,7 +33,19 @@ public class Steps {
         homePageObj.search(product);
     }
 
+    @When("I click signIn btn")
+    public void iClickSignInBtn(){
+        HomePage homePageObj = new HomePage(driver);
+        homePageObj.clickSignInBtn();
 
+    }
+
+    @And("I login {string}")
+    public void iLogin(String email){
+        SignInPage signInPageObj = new SignInPage(driver);
+        signInPageObj.enterEmail(email);
+        signInPageObj.clickGetOnBTn();
+    }
 
     @And("I quit")
     public void iQuit(){

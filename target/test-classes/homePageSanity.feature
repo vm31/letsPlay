@@ -1,6 +1,10 @@
 Feature: Amazon home page sanity scenarios
 
-  Scenario:
-    Given user is on Home Page
-    When he search for "kitcen"
+  Scenario Outline:
+    Given user launch url
+    When he search for "<PRODUCT>"
     And I quit
+    Examples:
+    |PRODUCT|
+    |       kitchen|
+    |              kids toys|

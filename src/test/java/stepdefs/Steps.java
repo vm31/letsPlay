@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class Steps {
     WebDriver driver;
 
-    @Given("^user is on Home Page$")
+    @Given("^user launch url$")
     public void user_is_on_Home_Page(){
 //        System.setProperty("webdriver.chrome.driver","C:\\ToolsQA\\Libs\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -32,6 +32,8 @@ public class Steps {
         HomePage homePageObj = new HomePage(driver);
         homePageObj.search(product);
     }
+
+
 
     @And("I quit")
     public void iQuit(){

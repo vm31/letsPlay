@@ -16,7 +16,7 @@ public class HomePage{
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy(xpath = "//a[@href='ref=nav_logo']")
+    @FindBy(xpath = "//*[@id=\"nav-logo\"]")
     private WebElement titleHomepage;
 
     @FindBy(xpath="//*[@id=\"nav-link-accountList\"]")
@@ -37,6 +37,10 @@ public class HomePage{
         searchBox.click();
         searchBox.sendKeys(text);
         searchBox.sendKeys(Keys.ENTER);
+    }
+
+    public boolean isHomePageDisplayed(){
+       return titleHomepage.isDisplayed();
     }
 
 

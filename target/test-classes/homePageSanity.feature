@@ -1,19 +1,19 @@
 Feature: Amazon home page sanity scenarios
-Background:
-  Given user launch url
 
-  Scenario Outline:
+  Background: user is on home page of amazon website
+    Given user is on homepage
+
+  Scenario Outline: I select item to shop
     When he search for "<PRODUCT>"
-    And I quit
     Examples:
-    |PRODUCT|
-    | kitchen|
-    | kids toys|
-    | facepack |
+      | PRODUCT   |
+      | kitchen   |
+      | kids toys |
+      | facepack  |
 
-Scenario Outline: login test
-  When I click signIn btn
-  And I login "<EMAIL>"
-Examples:
-|EMAIL|
-  |vmiddela@gmail.com|
+  Scenario Outline: login test
+    When I click signIn btn
+    And I login "<EMAIL>"
+    Examples:
+      | EMAIL              |
+      | vmiddela@gmail.com |

@@ -3,6 +3,7 @@ package stepdefs;
 import amzon.in.pages.HomePage;
 import amzon.in.pages.SignInPage;
 import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -18,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class Steps {
     WebDriver driver;
 
-    @Given("^user launch url$")
+    @Before
     public void user_is_on_Home_Page(){
 //        System.setProperty("webdriver.chrome.driver","C:\\ToolsQA\\Libs\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -27,6 +28,11 @@ public class Steps {
         driver.get("https://www.amazon.nl");
     }
 
+    @Given("user is on homepage")
+        public void isHomepageDisplayed(){
+        HomePage homePageObj = new HomePage(driver);
+        Assert.assertTrue(homePageObj.isHomePageDisplayed());
+    }
     @When("^he search for \"([^\"]*)\"$")
     public void he_search_for(String product)  {
         HomePage homePageObj = new HomePage(driver);
@@ -47,10 +53,8 @@ public class Steps {
         signInPageObj.clickGetOnBTn();
     }
 
-    @And("I quit")
+    @After
     public void iQuit(){
         driver.quit();
     }
-
-
 }

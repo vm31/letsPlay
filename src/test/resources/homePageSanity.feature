@@ -1,11 +1,10 @@
 Feature: Amazon home page sanity scenarios
 
-  Background:
-    Given user launch url
+  Background: user is on home page of amazon website
+    Given user is on homepage
 
-  Scenario Outline:
+  Scenario Outline: I select item to shop
     When he search for "<PRODUCT>"
-    And I quit
     Examples:
       | PRODUCT   |
       | kitchen   |

@@ -9,12 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class SignInPage {
-    WebDriver driver;
-
-
-    public SignInPage(WebDriver driver) {
-        PageFactory.initElements(driver,this);
-    }
 
     @FindBy(xpath="//*[@id='ap_email']")
     private WebElement emailInputBox;

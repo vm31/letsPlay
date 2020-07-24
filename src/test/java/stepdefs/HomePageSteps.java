@@ -24,9 +24,4 @@ public class HomePageSteps extends BaseTest {
 
     }
 
-
-    @After
-    public void iQuit(){
-        driver.quit();
-    }
 }

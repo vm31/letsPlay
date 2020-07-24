@@ -17,7 +17,3 @@ Feature: Amazon home page sanity scenarios
     Examples:
       | EMAIL              |
       | vmiddela@gmail.com |
-
-
-    Scenario:
-      And I login "vmiddela@gmail.com"

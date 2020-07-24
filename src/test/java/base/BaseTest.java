@@ -2,7 +2,6 @@ package base;
 
 import amzon.in.pages.HomePage;
 import amzon.in.pages.SignInPage;
-import io.cucumber.java.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;

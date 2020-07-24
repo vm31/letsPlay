@@ -18,24 +18,18 @@ import java.util.concurrent.TimeUnit;
 
 public class Steps {
     WebDriver driver;
+    HomePage homePageObj = new HomePage(driver);
 
-    @Before
-    public void user_is_on_Home_Page(){
-//        System.setProperty("webdriver.chrome.driver","C:\\ToolsQA\\Libs\\Drivers\\chromedriver.exe");
+    @Given("user is on homepage")
+        public void isHomepageDisplayed(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.amazon.nl");
     }
-
-    @Given("user is on homepage")
-        public void isHomepageDisplayed(){
-        HomePage homePageObj = new HomePage(driver);
-        Assert.assertTrue(homePageObj.isHomePageDisplayed());
-    }
     @When("^he search for \"([^\"]*)\"$")
     public void he_search_for(String product)  {
-        HomePage homePageObj = new HomePage(driver);
+//        HomePage homePageObj = new HomePage(driver);
         homePageObj.search(product);
     }
 

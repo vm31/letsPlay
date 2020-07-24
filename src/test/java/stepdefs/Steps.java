@@ -18,7 +18,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Steps {
     WebDriver driver;
-    HomePage homePageObj = new HomePage(driver);
 
     @Given("user is on homepage")
         public void isHomepageDisplayed(){
@@ -29,7 +28,7 @@ public class Steps {
     }
     @When("^he search for \"([^\"]*)\"$")
     public void he_search_for(String product)  {
-//        HomePage homePageObj = new HomePage(driver);
+        HomePage homePageObj = new HomePage(driver);
         homePageObj.search(product);
     }
 

@@ -8,8 +8,8 @@ Feature: Amazon home page sanity scenarios
     Examples:
       | PRODUCT   |
       | kitchen   |
-      | kids toys |
-      | facepack  |
+#      | kids toys |
+#      | facepack  |
 
   Scenario Outline: login test
     When I click signIn btn

@@ -4,6 +4,7 @@ import base.BaseTest;
 import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 
@@ -21,7 +22,6 @@ public class HomePageSteps extends BaseTest {
     @When("I click signIn btn")
     public void iClickSignInBtn(){
         homePageObj.clickSignInBtn();
-
     }
 
 }

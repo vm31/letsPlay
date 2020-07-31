@@ -1,7 +1,6 @@
 package stepdefs;
 
 import base.BaseTest;
-import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 
 public class SignInPageSteps extends BaseTest {

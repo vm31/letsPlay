@@ -11,7 +11,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage{
 
-
     @FindBy(xpath = "//*[@id=\"nav-logo\"]")
     private WebElement titleHomepage;
 

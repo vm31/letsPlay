@@ -174,8 +174,8 @@
       <list>
         <item itemvalue="Cucumber Java.Feature: homePageSanity" />
         <item itemvalue="Cucumber Java.Scenario: login test" />
-        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Scenario: I select item to shop" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="JUnit.Runner (1)" />
       </list>
     </recent_temporary>
